@@ -22,8 +22,19 @@ To run, open a CMD prompt or terminal window.
 Run *unit_test_launcher.toe* with the Touch Designer execute-able.
 
 example in Windows:
+
 ```cmd
-C:\Program Files\Derivative\TouchDesigner099\bin\TouchDesigner099.exe E:\Projects\TDGam\tests\unit_test_launcher.toe
+C:\Program Files\Derivative\TouchDesigner099\bin\TouchDesigner099.exe 
+
+E:\Projects\TDGam\tests\unit_test_launcher.toe
+```
+
+mt
+
+```bash
+sudo /Applications/TouchDesigner.app
+
+/Users/momothain/cs234/td_cl/tests/unit_test.py
 ```
 
 Touch Designer will launch, import the TestCases as a TestSuite in your target folder then, (if the final line is uncommented) exit.
